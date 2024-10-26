@@ -1,0 +1,511 @@
+@import url('https://fonts.cdnfonts.com/css/google-sans');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Product Sans', sans-serif;
+}
+nav {
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: black;
+    text-align: right;
+    padding: 30px 20px;
+    text-decoration: none;
+}
+
+nav li a:hover { 
+    text-decoration: underline;    
+}
+.About{
+    background-image: url;
+}
+.content{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -500px;
+    
+
+}
+.content button{
+    background-color: orange;
+    padding: 8px 35px;
+    margin-top: 100px;
+    margin-left: 300px;
+    border-radius: 10px;
+    border: 1px solid orange;
+    color: black;
+    font-size: 20px;
+}
+.content h1{
+              margin-top: 100px;
+              margin-left: 200px;
+}
+.content button:hover{
+    background-color: rgb(78, 72, 164);
+    color: white;
+    transition-duration: 1s;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#container{
+    width: 100%;
+    height: 200px;
+    background-image: url("img/top.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*body {
+  background-image: url('top.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}*/
+/* my code */
+/*#project{
+          padding-top: 20px;
+          padding-bottom: 70px;
+}
+#project .card-text{
+                  text-align: center;
+                  
+}
+#project h2{
+    margin-left: 35%;
+    margin-top: 350px;
+}
+#container p{
+    font-size: large;
+    margin-top: 50px;
+}*/
+/* end of code */
+/*#project{
+    padding-top: 350px;
+    padding-bottom: 70px;
+}
+#project h2{
+    text-align: center;
+    color: #150734;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+#project .card{
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#project .col-md-4{
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+#project .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+#project .card-text{
+               text-align: center;
+               font-size: large;
+               text-shadow: orange;
+               font-weight: bold;
+}
+.top:hover {
+    background-color: rgb(78, 72, 164);
+    color: blueviolet;
+    transition-duration: 1s;
+    cursor: pointer; 
+    text-decoration: underline;  
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);   
+}
+/*#contact{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #150734;
+    text-align: center;
+}
+#contact h1{
+    color: orange;
+}
+#contact h4{
+    color: #fff;
+}
+#contact a{
+    color: #fff;
+    text-decoration: none;
+} */
+footer {
+    text-align: left;
+    padding: 50px;
+    background-color: wheat;
+}
+.english {
+         color: black;
+         margin-top: 50px;
+         font-size: small;
+         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+.icons{
+    position: relative;
+    display: block;
+    align-items: left;
+    justify-content: left;
+    
+}
+h2{
+    color: black;
+    text-align: center;
+}
+.partnerships{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+ .large{
+    margin-left: 40%;
+    margin-top: 40px;
+    color: black;
+} 
+h4 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #333;
+}
+
+.testimonials {
+    background-color: #eef5f9;
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.testimonial {
+    text-align: center;
+    width: 200px;
+}
+
+.testimonial-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h5 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+}
+.space{
+    margin-top: 20px;
+}
+@media (max-width: 768px) {
+    .content {
+        text-align: center;
+    }
+
+    .content h1 {
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+
+    .content p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .content button {
+        padding: 8px 20px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav li {
+        width: 100%;
+    }
+
+    nav li a {
+        text-align: left;
+        padding: 10px 20px;
+    }
+
+    .content h1 {
+        font-size: 1.5rem;
+    }
+
+    .content p {
+        font-size: 0.9rem;
+    }
+
+    .content button {
+        font-size: 14px;
+    }
+
+    .testimonial-container {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px) {
+    .about-container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .top-image {
+        width: 50%;
+        margin-right: 20px;
+        max-height: 100%;
+    }
+
+    .content {
+        text-align: left;
+        width: 50%;
+    }
+}
+
+/* Additional responsiveness */
+@media (min-width: 1200px) {
+    .content h1 {
+        font-size: 48px;
+    }
+
+    .content p {
+        font-size: 20px;
+    }
+
+    .content button {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Center the 'Opportunities of Internships' section */
+    .large {
+      text-align: center;
+    
+    }
+   
+    /* Ensure intern.jpg covers all space on small screens */
+    img[src="intern.jpg"] {
+      width: 100%; /* Full width */
+      height: auto; /* Adjust height to preserve aspect ratio */
+    }
+  
+    /* Move 'partnerships' class content below the image */
+    .partnerships {
+      display: block;
+      width: 100%; /* Full width on smaller screens */
+      text-align: center;
+      margin-top: 20px; /* Add some space after the image */
+    }
+    .large + padding{
+       text-align: center;
+       padding: 0 20px;
+    }
+    
+  
+    .About img {
+        width: 100%;
+        height: auto; /* Responsive image handling */
+      }
+    
+      .About .content {
+        text-align: center; /* Center-align text on smaller screens */
+        padding: 10px; /* Add some padding for better readability */
+      }
+    
+      .About h1 {
+        font-size: 28px; /* Adjust heading size */
+      }
+    
+      .About p {
+        font-size: 16px; /* Adjust paragraph size */
+      }
+    
+      /* Footer alignment for smaller screens */
+      footer {
+        text-align: center;
+      }
+    
+      footer .icons {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+      }
+    
+      footer .icons a {
+        margin: 0 5px;
+      }
+    }
+    @media (max-width: 768px) {
+        /* Ensure that the "I'm Parvez" section content is aligned to the left */
+        .About .content {
+          text-align: left; /* Align the text to the left side */
+          padding: 10px; /* Add padding for spacing */
+        }
+      
+        .About h1 {
+          font-size: 28px; /* Adjust the font size for smaller screens */
+          margin-bottom: 10px; /* Add some space below the heading */
+        }
+      
+        .About p {
+          font-size: 16px; /* Adjust the font size for the paragraph */
+          margin-bottom: 20px; /* Add spacing below the paragraph */
+        }
+      
+        .About button {
+          display: block; /* Ensure the button is displayed as a block element */
+          margin-left: 0; /* Align the button to the left */
+          padding: 10px 20px; /* Add some padding to the button for a better look */
+        }
+      
+        /* Keep other content responsive */
+        .About img {
+          width: 100%;
+          height: auto; /* Ensure the image is responsive */
+        }
+      }
+      /* Styles for screens with max width of 768px and smaller */
+@media (max-width: 768px) {
+
+    /* Ensure the 'About' section content stays aligned to the left */
+    .About .content {
+      text-align: left !important; /* Force the text alignment to be left */
+      padding: 10px; /* Add padding */
+    }
+  
+    .About h1 {
+      font-size: 28px !important; /* Adjust heading size and make it take priority */
+      text-align: left !important; /* Ensure heading stays left-aligned */
+    }
+  
+    .About p {
+      font-size: 16px !important; /* Adjust paragraph font size */
+      text-align: left !important; /* Ensure paragraph stays left-aligned */
+    }
+  
+    /* Ensure the button is also left-aligned */
+    .About button {
+      display: block;
+      margin-left: 0 !important; /* Align the button to the left */
+    }
+  
+    /* For the 'Opportunities of Internships' section, keep the heading centered */
+    .large {
+      text-align: center;
+    }
+  
+    /* Ensure the intern.jpg covers all space on small screens */
+    img[src="intern.jpg"] {
+      width: 100% !important; /* Full width */
+      height: auto !important; /* Maintain aspect ratio */
+    }
+  
+    /* Move 'partnerships' class content below the image */
+    .partnerships {
+      display: block;
+      width: 100%;
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    /* Footer alignment for smaller screens */
+    footer {
+      text-align: center;
+    }
+  
+    footer .icons {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+  
+    footer .icons a {
+      margin: 0 5px;
+    }
+  }
+  @media (max-width: 768px) {
+
+    /* Ensure the 'About' section content stays aligned to the left */
+    .About .content {
+      text-align: left !important; /* Force the text alignment to be left */
+      padding: 10px; /* Add padding */
+    }
+  
+    .About h1 {
+      font-size: 28px !important; /* Adjust heading size */
+      text-align: left !important; /* Ensure heading stays left-aligned */
+      margin-left: 0; /* Make sure there is no margin pushing it to the right */
+    }
+  
+    .About p {
+      font-size: 16px !important; /* Adjust paragraph font size */
+      text-align: left !important; /* Ensure paragraph stays left-aligned */
+      margin-left: 0; /* Make sure there is no margin pushing it to the right */
+    }
+  
+    /* Ensure the button is also left-aligned */
+    .About button {
+      display: block;
+      margin-left: 0 !important; /* Align the button to the left */
+      padding: 10px 20px; /* Keep padding for a consistent button size */
+    }
+  
+    /* Ensure the image is responsive */
+    .About img {
+      width: 100%;
+      height: auto; /* Maintain aspect ratio */
+    }
+  
+    /* Footer alignment for smaller screens */
+    footer {
+      text-align: center;
+    }
+  
+    footer .icons {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+  
+    footer .icons a {
+      margin: 0 5px;
+    }
+}
